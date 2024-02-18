@@ -3,55 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Grid</title>
+    <title>Hands-on No. 8 - B2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h2>Site Title</h2>
-        <nav>
-            <ul>
-                <li>Nav 1</li>
-                <li>Nav 2</li>
-                <li>Nav 3</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <article>
-            <section id="post">
-                <h2>Post Title</h2>
-            </section>
-            <section id="postmain">
-                <section id="meta">
-                    <h2>Post Meta</h2>
-                </section>
-                <section id="middle">
-                    <section id="maincontent">
-                        <h2>Main Content</h2>
-                    </section>
-                    <section id="image">
-                        <h2>Main Content Image</h2>
-                    </section>
-                </section>
-            </section>
-        </article>
-        <article id="sidebar">
-            <section>
-                <h2>Side Bar</h2>
-            </section>
-            <section id="ads">
-                <h2>Ads</h2>
-            </section>
-            <section id="otherstuffs">
-                <h2>Other Stuffs</h2>
-            </section>
-        </article>
+    <div class="site-container">
+            <h2>Site Title</h2>
+            <nav>
+                <ul>
+                    <li>Nav 1</li>
+                    <li>Nav 2</li>
+                    <li>Nav 3</li>
+                </ul>
+            </nav>
+        </header>
 
-    </main>
-    <footer>
-        <h2>@2018 footer</h2>
-    </footer>
-    
+        <main>
+            <div class="post-container">
+                <h2 class="post-title">Post Title</h2>
+                <div class="meta-container">
+                    <h2 class="post-meta">Post Meta</h2>
+                    <div class="content-container">
+                        <h2 class="main-content">Main Content</h2>
+                        <div class="image-container">
+                            <h2 class="image-content">Main Content Image</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sides">
+                <div class="side-bar">Side Bar</div>
+                <div class="ads">Ads</div>
+                <div class="others">Other Stuffs</div>
+            </div>
+        </main>
+
+        <footer>@ 2018 footer</footer>
+    </div>
 </body>
 </html>
